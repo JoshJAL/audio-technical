@@ -24,12 +24,12 @@ export default function DropdownMenu() {
       >
         <div className='py-1'>
           <DropdownMenuItem to='/albums'>Albums</DropdownMenuItem>
-          <DropdownMenuItem to='/songs'>Songs</DropdownMenuItem>
-          <DropdownMenuItem to='/search'>Search</DropdownMenuItem>
           <SignedIn>
             <DropdownMenuItem to='/notebook'>Notebook</DropdownMenuItem>
             <DropdownMenuItem to='/recommendations'>Recommendations</DropdownMenuItem>
           </SignedIn>
+          <DropdownMenuItem to='/search'>Search</DropdownMenuItem>
+          <DropdownMenuItem to='/songs'>Songs</DropdownMenuItem>
         </div>
         <div className='py-1'>
           <SignedIn>
