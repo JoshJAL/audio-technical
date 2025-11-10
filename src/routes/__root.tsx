@@ -45,9 +45,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <head>
           <HeadContent />
         </head>
-        <body className='flex-vol flex min-h-screen antialiased'>
+        <body className='flex min-h-screen w-full flex-col antialiased'>
           <Header />
-          <main className='mx-auto w-full max-w-7xl p-5 pt-24'>{children}</main>
+          <main className='mx-auto flex w-full max-w-7xl p-5 pt-24'>{children}</main>
           <div className='flex-1' />
           <TanStackDevtools
             config={{
